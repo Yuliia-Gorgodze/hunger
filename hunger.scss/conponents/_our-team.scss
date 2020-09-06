@@ -1,0 +1,52 @@
+.bg-our-team {
+  background-image: url(../img/bg-our-team.jpg);
+  width: 100%;
+  min-height: 675px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.our-team-container {
+  padding-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-our-team {
+  filter: drop-shadow(0px 0px 50px #000000);
+  border-radius: 5px;
+  width: 475px;
+  height: 475px;
+}
+.img-cook-container {
+  position: relative;
+}
+.decor-our-team {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+.our-team-contant {
+  position: relative;
+  max-width: 600px;
+  color: $base-color;
+  margin-left: 80px;
+}
+.master {
+  color: $base-color;
+  display: inline-flex;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.5em;
+  font-family: $text;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}

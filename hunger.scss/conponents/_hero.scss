@@ -1,0 +1,83 @@
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 700px;
+  height: 100%;
+  max-width: 1440px;
+  padding-top: 224px;
+  padding-bottom: 85px;
+  text-align: center;
+}
+.button-yelow {
+  background-color: $button-backgraund;
+  color: $base-color;
+  margin-right: 40px;
+}
+.button {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  color: $base-color;
+}
+.twitter,
+.facebook {
+  display: block;
+  margin-bottom: 20px;
+}
+.instagram {
+  display: block;
+}
+.social-iteam {
+  position: absolute;
+  right: 80px;
+  bottom: 50%;
+  transform: translateY(50%);
+  &::before {
+    content: " ";
+    position: absolute;
+    right: 0;
+    bottom: 109px;
+    transform: rotate(90deg) translateY(-165px);
+    width: 700px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+}
+.svg-vecror {
+  width: 150px;
+  height: 150px;
+  margin-top: 15px;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  top: 10px;
+}
+.hero-text {
+  position: absolute;
+  bottom: 45%;
+  transform: rotate(-90deg) translateY(-50%);
+  font-family: $text;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  color: $base-color;
+  display: block;
+  height: 80px;
+  &::after {
+    content: " ";
+    position: absolute;
+    width: 700px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    top: 215px;
+    left: -228px;
+  }
+}
+.down-btn {
+  display: block;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: auto;
+  z-index: 1;
+}
