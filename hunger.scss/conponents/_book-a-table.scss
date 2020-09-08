@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.form-content {
+  height: 60px;
+  margin-right: 10px;
+
+  background-color: $input-background;
+}
+
+.time-work {
+  font-family: $text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  color: rgba(51, 51, 51, 0.5);
+}
+.book-container {
+  padding-bottom: 0;
+}
